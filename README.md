@@ -1,6 +1,6 @@
 # 엘라스틱서치 설치와 실행
-	<https://www.elastic.co/downloads/elasticsearch>
-	
+	* [다운로드](https://www.elastic.co/downloads/elasticsearch)
+
 
 # 인덱스 매핑 설정
 <pre><code> 
