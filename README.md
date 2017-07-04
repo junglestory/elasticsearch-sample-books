@@ -1,8 +1,8 @@
-# 엘라스틱서치 설치와 실행
+# Downloading and running ElasticSearch
 	* [다운로드](https://www.elastic.co/downloads/elasticsearch)
 
 
-# 인덱스 매핑 설정
+# Index Mapping
 <pre><code> 
 curl -XPUT http://localhost:9200/books/ -d '
 {
@@ -21,12 +21,12 @@ curl -XPUT http://localhost:9200/books/ -d '
 }'
 </code></pre>
 
-# 데이터 bulk 인덱스
+# Bulk Indexing
 <pre><code> 
 curl -XPOST localhost:9200/_bulk --data-binary @books.json
 </code></pre>
 
-# 검색
+# Searching
 <pre><code> 
 curl -XGET 'localhost:9200/books/book/_search?pretty' -H 'Content-Type: application/json' -d'
 {
