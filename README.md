@@ -1,5 +1,5 @@
 # Downloading and running ElasticSearch
-	* [Download](https://www.elastic.co/downloads/elasticsearch) and unzip the Elasticsearch official distribution.
+* [Download](https://www.elastic.co/downloads/elasticsearch) and unzip the Elasticsearch official distribution.
 
 
 # Index Mapping
