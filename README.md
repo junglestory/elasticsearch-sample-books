@@ -1,5 +1,5 @@
 # Downloading and running ElasticSearch
-	* [다운로드](https://www.elastic.co/downloads/elasticsearch)
+	* [Download](https://www.elastic.co/downloads/elasticsearch) and unzip the Elasticsearch official distribution.
 
 
 # Index Mapping
@@ -32,7 +32,7 @@ curl -XGET 'localhost:9200/books/book/_search?pretty' -H 'Content-Type: applicat
 {
     "query": {
         "match" : {
-            "summary" : "사회"
+            "_all" : "이야기"
         }
     }
 }
